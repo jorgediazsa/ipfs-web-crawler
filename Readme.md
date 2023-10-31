@@ -1,5 +1,5 @@
 ## IPFS Web Scraper
-IPFS Web Scraper written in go
+IPFS Web Scraper written in go with REST api to handle requests
 ## Entry point
 ```
 main.go
