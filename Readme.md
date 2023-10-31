@@ -1,5 +1,5 @@
 ## IPFS Web Scraper
-IPFS Web Scraper written in go with REST api to handle requests
+IPFS Web Scraper written in go with REST api to handle requests, saving data to AWS DynamoDB.
 ## Entry point
 ```
 main.go
@@ -13,6 +13,7 @@ IPFS_GATEWAY_URL //default: "https://blockpartyplatform.mypinata.cloud/ipfs"
 ```
 ## How to run
 ```
+# first you'll need to setup a AWS DynamoDB table to save scraped data
 go mod tidy
 go run main.go
 ```
